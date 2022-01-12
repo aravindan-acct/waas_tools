@@ -12,19 +12,31 @@ For windows, please follow the download instructions from here: https://www.pyth
 
 Command: waas_ip_upload.py [-h] [-u USERNAME] [-f FILENAME] [-a ACTION]
                          [-s SERVICE_APP_NAME]
+
 Example: `python3 waas_ip_upload.py -u test@company.com -f ip_list.txt -a block -s test_svc_rulesetstaging`
 
 Arguments:
+
   -h, --help            show this help message and exit
+
   -u USERNAME, --username USERNAME
+
                         Email address to login to Barracuda WaaS
+
   -f FILENAME, --filename FILENAME
+
                         Input file containing the list of ip addresses
+
   -a ACTION, --action ACTION
+
                         Whether to allow or block the ip addresses. Defaults
                         to 'allow'. Allowed values are 'allow' or 'block'
+
   -s SERVICE_APP_NAME, --service_app_name SERVICE_APP_NAME
+
                         Service name into which configuration needs to be
                         updates
+
 # Support
+
 For any questions, connect with wafsupport_team@barracuda.com
