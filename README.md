@@ -1,7 +1,16 @@
+# Introduction
+
+This script can be used to upload a custom ip list into Barracuda WAAS management for allowing/blocking clients.
+
 # Pre-requisites:
 1. Python3 needs to be installed
+
 Most linux and macos distributions will have python3 already.
-For windows, please follow the download instructions from here: https://www.python.org/downloads/release/python-395/
+
+For windows, please follow the download instructions from here: 
+
+https://www.python.org/downloads/release/python-395/
+
 2. The input file needs to be a flat file. A sample file is provided here, named ip_list.txt
 3. Active WaaS account
 4. Application under which the configuration change is required to be done.
